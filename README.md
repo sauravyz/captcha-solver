@@ -48,7 +48,7 @@ In OCR, the alignment between the input (image slices) and the output (character
 ## Getting Started
 This project takes a pre-trained Keras model (`prediction_model.h5`) for Optical Character Recognition (OCR) and makes it accessible through a web API.The application is built with **Flask** and served by **Gunicorn**.
 
-The entire application is containerized using **Docker**, making it easy to build, run, and deploy in any environment. The `Dockerfile` is optimized to leverage Docker's layer caching for faster rebuilds by installing dependencies separately from the application code[cite: 2, 3].
+The entire application is containerized using **Docker**, making it easy to build, run, and deploy in any environment. The `Dockerfile` is optimized to leverage Docker's layer caching for faster rebuilds by installing dependencies separately from the application code.
 
 ### Built With
 * Flask 
